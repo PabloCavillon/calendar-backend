@@ -18,7 +18,6 @@ const crearEvento = async (req, res = response) => {
     const evento = new Evento(req.body);
 
     try {   
-
         evento.user = req.uid;
 
         const eventoGuardado = await evento.save();

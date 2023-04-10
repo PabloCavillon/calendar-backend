@@ -25,4 +25,4 @@ app.use('/api/events', require('./routes/events'));
 // Escuchar peticiones
 app.listen(process.env.PORT, () => {
     console.log(`Servidor en puerto ${process.env.PORT}`);
-});
+}); 
